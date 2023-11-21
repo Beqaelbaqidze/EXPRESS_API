@@ -14,9 +14,13 @@ h1 {
 
 /* Center forms in the middle of the page */
 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  width: 300px;
-  padding: 20px;
+  width: 330px;
+  padding: 30px;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 5px;
